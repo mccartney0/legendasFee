@@ -25,35 +25,20 @@
       <nav class="navigation">
         <div class="container-fluid">
           <div class="navigation__column left">
-            <div class="header__logo"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo.png" alt=""></a></div>
           </div>
           <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown"><a href="index.html">HOME</a>
-                        <ul class="sub-menu">
-                          <li class="menu-item"><a href="index.html">Homepage #1</a></li>
-                          <li class="menu-item"><a href="#">Homepage #2</a></li>
-                          <li class="menu-item"><a href="#">Homepage #3</a></li>
-                        </ul>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">HOME</a>
                   </li>
                   <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">FILMES</a>
                   </li>
                   <li class="menu-item"><a href="#">SÉRIES</a></li>
                   <li class="menu-item menu-item-has-children dropdown"><a href="#">FAÇA PARTE</a>
-                        <ul class="sub-menu">
-                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.html">Blog-grid</a>
-                                <ul class="sub-menu">
-                                  <li class="menu-item"><a href="blog-grid.html">Blog Grid 1</a></li>
-                                  <li class="menu-item"><a href="blog-grid-2.html">Blog Grid 2</a></li>
-                                </ul>
-                          </li>
-                          <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
-                        </ul>
                   </li>
-                  <li class="menu-item menu-item-has-children dropdown"><a href="#">EQUIPE</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="login.php">Login - Cadastro</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #1</a></li>
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #2</a></li>
+                          <li class="menu-item"><a href="recoveryPassword.php">Esqueci a senha</a></li>
                         </ul>
                   </li>
                 </ul>

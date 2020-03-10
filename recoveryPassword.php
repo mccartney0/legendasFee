@@ -10,7 +10,7 @@
     <link href="favicon.png" rel="icon">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Legendas - Login&Cadastro</title>
+    <title>Legendas - Recuperar Senha</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -70,6 +70,27 @@
         <div id="contact-map" data-address="New York, NY" data-title="BAKERY LOCATION!" data-zoom="17"></div>
         <div class="ps-home-contact__form">
           <header>
+            <h3>Esqueci a senha</h3>
+              <h5>Por favor, insira seu e-mail utilizado para fazer o cadastro.</h5>
+          </header>
+          <article>
+            <form action="recuperarSenha.php" method="post">
+              <div class="form-group">
+                <label>E-mail<span>*</span></label>
+                <input class="form-control" type="text" name="email" placeholder="youremail@email.com">
+              </div>
+                <div class="form-group">
+						<input type="submit" value="Recuperar Senha" class="btn login_btn">
+					</div>
+            </form>
+          </article>
+        </div>
+      </div>
+          </div>
+           <div class="ps-column"><div class="ps-home-contact">
+        <div id="contact-map" data-address="New York, NY" data-title="BAKERY LOCATION!" data-zoom="17"></div>
+        <div class="ps-home-contact__form">
+          <header>
             <h3>Entrar</h3>
           </header>
           <article>
@@ -86,42 +107,10 @@
 						<input type="submit" value="Login" class="btn login_btn">
 					</div>
             </form>
-              <div class="card-footer">
-				<div class="d-flex links">
-					<a href="#">Forgot your password?</a>
-				</div>
-			</div>
           </article>
         </div>
       </div>
           </div>
-           <div class="ps-column"><div class="ps-home-contact">
-        <div id="contact-map" data-address="New York, NY" data-title="BAKERY LOCATION!" data-zoom="17"></div>
-        <div class="ps-home-contact__form">
-          <header>
-            <h3>Cadastre-se</h3>
-          </header>
-          <article>
-            <form action="cadastroUsuario.php" method="post">
-              <div class="form-group">
-               <input type="text" class="form-control" name="user" placeholder="Please, insert your username" />
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" placeholder="Please, insert your emmail account"/>
-              </div>
-                <div class="form-group">
-                <input type="password" id="password1" class="form-control password1" name="senha" placeholder="Please, insert your password"/>
-              </div>
-                <div class="form-group">
-                <input type="password"  id="password2" class="form-control password2" name="confirm_Senha" placeholder="Please, confirm your password"/>
-              </div>
-                <div class="form-group">
-						<input type="submit" value="Create account" class="btn login_btn">
-					</div>
-            </form>
-          </article>
-        </div>
-               </div></div>
            </div>
     <div class="ps-footer bg--cover" data-background="images/background/parallax.jpg">
         <div class="ps-footer__copyright">
